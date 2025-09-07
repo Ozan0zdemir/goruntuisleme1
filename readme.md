@@ -26,5 +26,5 @@ homebrew ile kurmak isterseniz "brew install python@3.10"
 
 - requirements.txt dosyasındaki kütüphaneler
 "pip install -r requirements.txt" komutu ile indirebilirsiniz
- bunlar ile uğraşmak isteemzseniz kurulum.sh isimli dosyayı çalıştırabilrsiniz
+ bunlar ile uğraşmak istemezseniz kurulum.sh isimli dosyayı çalıştırabilrsiniz
 eğer ki çalışmazsa pip install yazıp import yazan kütüphaneleri indirmelisniz
