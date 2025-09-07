@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>OCR - Görselden Yazı Tespiti</title>
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>OCR - Görselden Yazı Tespiti</h1>
+  <input type="file" id="imageUpload" accept="image/*" />
+  <div id="statusMessage">Lütfen bir görsel seçiniz.</div>
+
+  <div id="progressContainer">
+    <div id="progressBar"></div>
+  </div>
+
+  <canvas id="canvas"></canvas>
+  <div id="result"></div>
+  <button id="copyButton">Metni Kopyala</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  color: #333;
+}
+h1 { color: #2c3e50; }
+#imageUpload {
+  padding: 10px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+#statusMessage {
+  margin: 15px 0;
+  font-size: 1.1em;
+  color: #e67e22;
+  min-height: 25px;
+}
+canvas {
+  max-width: 90%;
+  border: 2px solid #ddd;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+#result {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  max-width: 90%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  white-space: pre-wrap;
+  min-height: 100px;
+  position: relative;
+}
+#copyButton {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#copyButton:hover {
+  background-color: #2980b9;
+}
+#progressContainer {
+  width: 90%;
+  max-width: 600px;
+  background-color: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 20px;
+  display: none; /* Başlangıçta gizli */
+}
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background-color: #3498db;
+  transition: width 0.3s ease;
+}

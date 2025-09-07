@@ -1,0 +1,1 @@
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"; brew install python@3.10; /opt/homebrew/bin/python3.10 -m venv env_proj; source env_proj/bin/activate; pip install -r requirements.txt
